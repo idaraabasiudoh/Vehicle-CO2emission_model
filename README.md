@@ -31,7 +31,7 @@ Clone the repository and install the necessary dependencies:
 ```bash
 git clone https://github.com/<idaraabasiudoh>/vehicle-co2-emission-prediction.git
 cd vehicle-co2-emission-prediction
-pip install -r requirements.txt
+pip install -r requirements
 ```
 
 ## Acknowledgment 
