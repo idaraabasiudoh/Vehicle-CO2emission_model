@@ -10,15 +10,16 @@
 - [Evaluation](#evaluation)
 - [Contributions](#contributions)
 - [Acknowledgments](#acknowledgments)
+- [Change Log](#change-log)
 - [License](#license)
 
 ## Introduction
-This repository contains a machine learning project focused on predicting CO2 emissions from various vehicles using a simple linear regression model. The project leverages Python and popular data science libraries such as scikit-learn, pandas, and matplotlib.
+This repository contains a machine learning project focused on predicting CO2 emissions from various vehicles using a multiple linear regression model. The project leverages Python and popular data science libraries such as scikit-learn, pandas, and matplotlib.
 
 ## Objectives
 The primary objectives of this project are:
 - To implement a linear regression model using scikit-learn to predict CO2 emissions.
-- To train, test, and evaluate the model on a dataset of vehicle fuel consumption ratings and CO2 emissions.
+- To train, test, and evaluate the model on a dataset of vehicle specifications and CO2 emissions.
 - To explore the relationship between different vehicle features and their CO2 emissions.
 
 ## Dataset
@@ -30,7 +31,7 @@ The dataset used in this project, `FuelConsumptionCo2.csv`, contains model-speci
 - `ENGINE SIZE`: e.g., 4.7
 - `CYLINDERS`: e.g., 6
 - `TRANSMISSION`: e.g., A6
-- `FUEL CONSUMPTION in CITY(L/100 km)`: e.g., 9.9
+- `FUEL CONSUMPTION in CITY (L/100 km)`: e.g., 9.9
 - `FUEL CONSUMPTION in HWY (L/100 km)`: e.g., 8.9
 - `FUEL CONSUMPTION COMB (L/100 km)`: e.g., 9.2
 - `CO2 EMISSIONS (g/km)`: e.g., 182
@@ -46,17 +47,17 @@ Ensure you have the following dependencies installed:
 - `pandas`
 - `scikit-learn`
 
-  
 ## Installation
 To run this project locally, you need to have Python installed along with the required libraries. You can install the necessary packages using the following command:
 
 Clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/<idaraabasiudoh>/vehicle-co2-emission-prediction.git
+git clone https://github.com/idaraabasiudoh/vehicle-co2-emission-prediction.git
 cd vehicle-co2-emission-prediction
-pip install -r requirements
+pip install -r requirements.txt
 ```
+
 ## Usage
 To use this repository, follow these steps:
 1. Clone the repository:
@@ -67,11 +68,7 @@ To use this repository, follow these steps:
     ```bash
     cd vehicle-co2-emission-prediction
     ```
-3. Run the Jupyter notebook or Python script:
-    ```bash
-    jupyter notebook
-    ```
-    or
+3. Run the prediction script:
     ```bash
     python predict.py
     ```
@@ -121,7 +118,6 @@ print("Mean Absolute Error (MAE):", mae)
 print("Mean Squared Error (MSE):", mse)
 print("R-squared Score:", r2)
 ```
-
 
 ## Contributions
 We welcome contributions from the community to improve this project. To contribute, please follow these steps:
@@ -175,13 +171,12 @@ Azim Hirjani
 
 |  Date (YYYY-MM-DD) |  Version | Changed By  |  Change Description |
 |---|---|---|---|
-| 2024-06-26 | 2.2 | Idara-Absi Udoh | Project completion|
+| 2024-07-02 | 2.2 | Idara-Absi Udoh | Project completion|
 | 2020-11-03 | 2.1  | Lakshmi Holla  |  Changed URL of the csv |
 | 2020-08-27  | 2.0  | Lavanya  |  Moved lab to course repo in GitLab |
 |   |   |   |   |
 
 ## <h3 align="center"> © IBM Corporation 2020. All rights reserved. <h3/>
-
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
